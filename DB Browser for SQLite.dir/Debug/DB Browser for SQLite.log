@@ -1,4 +1,4 @@
-﻿Build started 08/05/2017 19:24:11.
+﻿Build started 08/05/2017 22:05:19.
      1>Project "C:\git_repos\sqlitebrowser\DB Browser for SQLite.vcxproj" on node 2 (Build target(s)).
      1>PreBuildEvent:
          setlocal
@@ -16,9 +16,11 @@
          if %errorlevel% neq 0 goto :VCEnd
          :VCEnd
        ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IC:\git_repos\sqlitebrowser /I"C:\git_repos\sqlitebrowser\DB Browser for SQLite_autogen\include" /I"C:\dev\SQLite-Win64" /IC:\git_repos\sqlitebrowser\libs\qhexedit /I"C:\git_repos\sqlitebrowser\libs\qcustomplot-source" /I\usr\local\include /I\usr\local\opt\sqlite\include /IC:\git_repos\sqlitebrowser\src /I"C:\git_repos\sqlitebrowser\libs\antlr-2.7.7" /IC:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5 /IC:\dev\Qt\5.8\msvc2013_64\include /IC:\dev\Qt\5.8\msvc2013_64\include\QtGui /IC:\dev\Qt\5.8\msvc2013_64\include\QtCore /I"C:\dev\Qt\5.8\msvc2013_64\.\mkspecs\win32-msvc2013" /IC:\dev\Qt\5.8\msvc2013_64\include\QtANGLE /IC:\dev\Qt\5.8\msvc2013_64\include\QtWidgets /IC:\dev\Qt\5.8\msvc2013_64\include\QtNetwork /IC:\dev\Qt\5.8\msvc2013_64\include\QtTest /IC:\dev\Qt\5.8\msvc2013_64\include\QtPrintSupport /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D QT_GUI_LIB /D QT_CORE_LIB /D QT_WIDGETS_LIB /D QT_NETWORK_LIB /D QT_TESTLIB_LIB /D QT_PRINTSUPPORT_LIB /D CHECKNEWVERSION /D "QT_TESTCASE_BUILDDIR=\"C:/git_repos/sqlitebrowser\"" /D _CONSOLE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"DB Browser for SQLite.dir\Debug\\" /Fd"DB Browser for SQLite.dir\Debug\vc120.pdb" /Gd /TP /errorReport:prompt   -std=c++11 C:\git_repos\sqlitebrowser\src\MainWindow.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IC:\git_repos\sqlitebrowser /I"C:\git_repos\sqlitebrowser\DB Browser for SQLite_autogen\include" /I"C:\dev\SQLite-Win64" /IC:\git_repos\sqlitebrowser\libs\qhexedit /I"C:\git_repos\sqlitebrowser\libs\qcustomplot-source" /I\usr\local\include /I\usr\local\opt\sqlite\include /IC:\git_repos\sqlitebrowser\src /I"C:\git_repos\sqlitebrowser\libs\antlr-2.7.7" /IC:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5 /IC:\dev\Qt\5.8\msvc2013_64\include /IC:\dev\Qt\5.8\msvc2013_64\include\QtGui /IC:\dev\Qt\5.8\msvc2013_64\include\QtCore /I"C:\dev\Qt\5.8\msvc2013_64\.\mkspecs\win32-msvc2013" /IC:\dev\Qt\5.8\msvc2013_64\include\QtANGLE /IC:\dev\Qt\5.8\msvc2013_64\include\QtWidgets /IC:\dev\Qt\5.8\msvc2013_64\include\QtNetwork /IC:\dev\Qt\5.8\msvc2013_64\include\QtTest /IC:\dev\Qt\5.8\msvc2013_64\include\QtPrintSupport /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D QT_GUI_LIB /D QT_CORE_LIB /D QT_WIDGETS_LIB /D QT_NETWORK_LIB /D QT_TESTLIB_LIB /D QT_PRINTSUPPORT_LIB /D CHECKNEWVERSION /D "QT_TESTCASE_BUILDDIR=\"C:/git_repos/sqlitebrowser\"" /D _CONSOLE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"DB Browser for SQLite.dir\Debug\\" /Fd"DB Browser for SQLite.dir\Debug\vc120.pdb" /Gd /TP /errorReport:prompt   -std=c++11 C:\git_repos\sqlitebrowser\src\sqlitetablemodel.cpp
      1>cl : Command line warning D9002: ignoring unknown option '-std=c++11'
-         MainWindow.cpp
+         sqlitetablemodel.cpp
+     1>C:\git_repos\sqlitebrowser\src\sqlitetablemodel.cpp(137): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>C:\git_repos\sqlitebrowser\src\sqlitetablemodel.cpp(370): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\git_repos\sqlitebrowser\Debug\DB Browser for SQLite.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib C:\dev\Qt\5.8\msvc2013_64\lib\Qt5Networkd.lib C:\dev\Qt\5.8\msvc2013_64\lib\Qt5Testd.lib libs\qhexedit\Debug\qhexedit.lib "libs\qcustomplot-source\Debug\qcustomplot.lib" "C:\dev\SQLite-Win64\sqlite3.lib" "libs\antlr-2.7.7\Debug\antlr.lib" libs\qscintilla\Qt4Qt5\Debug\qscintilla2.lib C:\dev\Qt\5.8\msvc2013_64\lib\Qt5PrintSupportd.lib C:\dev\Qt\5.8\msvc2013_64\lib\Qt5Widgetsd.lib C:\dev\Qt\5.8\msvc2013_64\lib\Qt5Guid.lib C:\dev\Qt\5.8\msvc2013_64\lib\Qt5Cored.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/git_repos/sqlitebrowser/Debug/DB Browser for SQLite.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/git_repos/sqlitebrowser/Debug/DB Browser for SQLite.lib" /MACHINE:X64   /machine:x64 "DB Browser for SQLite.dir\Debug\winapp.res"
          "DB Browser for SQLite.dir\Debug\AboutDialog.obj"
@@ -65,4 +67,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:03.43
+Time Elapsed 00:00:02.97

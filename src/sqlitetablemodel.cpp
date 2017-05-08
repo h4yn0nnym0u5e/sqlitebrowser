@@ -592,25 +592,50 @@ void SqliteTableModel::buildQuery()
 
 void SqliteTableModel::removeCommentsFromQuery(QString& query) 
 {
-    QRegExp rxSQL("^((?:(?:[^'-]|-(?!-))*|(?:'[^']*'))*)(--[^\\r\\n]*)([\\r\\n]*)(.*)$");	// set up regex to find end-of-line comment
-	QString result="";
-
-	while (query.size() != 0)
+	// first remove block comments
 	{
-		int pos = rxSQL.indexIn(query);
-		if (pos > -1)
+		QRegExp rxSQL("^((?:(?:[^'/]|/(?![*]))*|'[^']*')*)(/[*](?:[^*]|[*](?!/))*[*]/)(.*)$");	// set up regex to find block comment
+		QString result = "";
+
+		while (query.size() != 0)
 		{
-			result += rxSQL.cap(1) + rxSQL.cap(3);
-			query = rxSQL.cap(4);
+			int pos = rxSQL.indexIn(query);
+			if (pos > -1)
+			{
+				result += rxSQL.cap(1) + " ";
+				query = rxSQL.cap(3);
+			}
+			else
+			{
+				result += query;
+				query = "";
+			}
 		}
-		else
-		{
-			result += query;
-			query = "";
-		}
+		query = result;
 	}
 
-	query = result.trimmed();
+	// deal with end-of-line comments
+	{
+		QRegExp rxSQL("^((?:(?:[^'-]|-(?!-))*|(?:'[^']*'))*)(--[^\\r\\n]*)([\\r\\n]*)(.*)$");	// set up regex to find end-of-line comment
+		QString result = "";
+
+		while (query.size() != 0)
+		{
+			int pos = rxSQL.indexIn(query);
+			if (pos > -1)
+			{
+				result += rxSQL.cap(1) + rxSQL.cap(3);
+				query = rxSQL.cap(4);
+			}
+			else
+			{
+				result += query;
+				query = "";
+			}
+		}
+
+		query = result.trimmed();
+	}
 }
 
 QStringList SqliteTableModel::getColumns(const QString& sQuery, QVector<int>& fieldsTypes)
