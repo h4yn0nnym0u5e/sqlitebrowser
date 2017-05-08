@@ -1,0 +1,27 @@
+﻿Build started 08/05/2017 18:49:20.
+     1>Project "C:\git_repos\sqlitebrowser\PACKAGE.vcxproj" on node 2 (Build target(s)).
+     1>PostBuildEvent:
+         setlocal
+         cd C:\git_repos\sqlitebrowser
+         if %errorlevel% neq 0 goto :cmEnd
+         C:
+         if %errorlevel% neq 0 goto :cmEnd
+         "C:\Program Files (x86)\CMake\bin\cpack.exe" -C Debug --config ./CPackConfig.cmake
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         :VCEnd
+         CPack: Create package using NSIS
+         CPack: Install projects
+         CPack: - Install project: DB Browser for SQLite
+         CPack: Create package
+         CPack: - package: C:/git_repos/sqlitebrowser/DB Browser for SQLite-3.9.99-win64.exe generated.
+     1>Done Building Project "C:\git_repos\sqlitebrowser\PACKAGE.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:33.12

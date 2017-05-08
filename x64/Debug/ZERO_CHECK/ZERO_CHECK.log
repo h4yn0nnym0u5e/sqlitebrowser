@@ -1,0 +1,14 @@
+﻿Build started 07/05/2017 21:45:35.
+     1>Project "C:\git_repos\sqlitebrowser\ZERO_CHECK.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Checking Build System
+         CMake does not need to re-run because C:/git_repos/sqlitebrowser/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/git_repos/sqlitebrowser/libs/antlr-2.7.7/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/git_repos/sqlitebrowser/libs/qscintilla/Qt4Qt5/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/git_repos/sqlitebrowser/libs/qhexedit/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/git_repos/sqlitebrowser/libs/qcustomplot-source/CMakeFiles/generate.stamp is up-to-date.
+     1>Done Building Project "C:\git_repos\sqlitebrowser\ZERO_CHECK.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.19

@@ -1,0 +1,10 @@
+﻿Build started 07/05/2017 21:47:18.
+     1>Project "C:\git_repos\sqlitebrowser\ALL_BUILD.vcxproj" on node 4 (Build target(s)).
+     1>CustomBuild:
+         Building Custom Rule C:/git_repos/sqlitebrowser/CMakeLists.txt
+         CMake does not need to re-run because C:/git_repos/sqlitebrowser/CMakeFiles/generate.stamp is up-to-date.
+     1>Done Building Project "C:\git_repos\sqlitebrowser\ALL_BUILD.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.08

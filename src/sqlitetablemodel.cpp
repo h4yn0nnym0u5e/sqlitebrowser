@@ -114,8 +114,9 @@ void SqliteTableModel::setQuery(const QString& sQuery, bool dontClearHeaders)
         return;
 
     m_sQuery = sQuery.trimmed();
-
+	qWarning() << "Trimmed query is: " << m_sQuery;
     removeCommentsFromQuery(m_sQuery);
+	qWarning() << "Query without comments is: " << m_sQuery;
 
     // do a count query to get the full row count in a fast manner
     m_rowCount = getQueryRowCount();
@@ -589,8 +590,27 @@ void SqliteTableModel::buildQuery()
     setQuery(sql, true);
 }
 
-void SqliteTableModel::removeCommentsFromQuery(QString& query) {
-    query.remove(QRegExp("\\s*--[^\\n]+"));
+void SqliteTableModel::removeCommentsFromQuery(QString& query) 
+{
+    QRegExp rxSQL("^((?:(?:[^'-]|-(?!-))*|(?:'[^']*'))*)(--[^\\r\\n]*)([\\r\\n]*)(.*)$");	// set up regex to find end-of-line comment
+	QString result="";
+
+	while (query.size() != 0)
+	{
+		int pos = rxSQL.indexIn(query);
+		if (pos > -1)
+		{
+			result += rxSQL.cap(1) + rxSQL.cap(3);
+			query = rxSQL.cap(4);
+		}
+		else
+		{
+			result += query;
+			query = "";
+		}
+	}
+
+	query = result.trimmed();
 }
 
 QStringList SqliteTableModel::getColumns(const QString& sQuery, QVector<int>& fieldsTypes)

@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\antlr-2.7.7\src\ANTLRUtil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\antlr-2.7.7\src\ASTFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\antlr-2.7.7\src\ASTNULLType.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\antlr-2.7.7\src\ASTRefCount.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\antlr-2.7.7\src\BaseAST.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\antlr-2.7.7\src\BitSet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\antlr-2.7.7\src\CharBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\antlr-2.7.7\src\CharScanner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\antlr-2.7.7\src\CommonAST.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\antlr-2.7.7\src\CommonASTWithHiddenTokens.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\antlr-2.7.7\src\CommonHiddenStreamToken.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\antlr-2.7.7\src\CommonToken.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\antlr-2.7.7\src\InputBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\antlr-2.7.7\src\LLkParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\antlr-2.7.7\src\MismatchedCharException.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\antlr-2.7.7\src\MismatchedTokenException.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\antlr-2.7.7\src\NoViableAltException.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\antlr-2.7.7\src\NoViableAltForCharException.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\antlr-2.7.7\src\Parser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\antlr-2.7.7\src\RecognitionException.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\antlr-2.7.7\src\String.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\antlr-2.7.7\src\Token.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\antlr-2.7.7\src\TokenBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\antlr-2.7.7\src\TokenRefCount.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\antlr-2.7.7\src\TokenStreamBasicFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\antlr-2.7.7\src\TokenStreamHiddenTokenFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\antlr-2.7.7\src\TokenStreamRewriteEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\antlr-2.7.7\src\TokenStreamSelector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\antlr-2.7.7\src\TreeParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\antlr-2.7.7\antlr\ANTLRException.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\antlr-2.7.7\antlr\ANTLRUtil.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\antlr-2.7.7\antlr\AST.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\antlr-2.7.7\antlr\ASTArray.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\antlr-2.7.7\antlr\ASTFactory.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\antlr-2.7.7\antlr\ASTNULLType.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\antlr-2.7.7\antlr\ASTPair.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\antlr-2.7.7\antlr\ASTRefCount.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\antlr-2.7.7\antlr\BaseAST.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\antlr-2.7.7\antlr\BitSet.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\antlr-2.7.7\antlr\CharBuffer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\antlr-2.7.7\antlr\CharInputBuffer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\antlr-2.7.7\antlr\CharScanner.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\antlr-2.7.7\antlr\CharStreamException.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\antlr-2.7.7\antlr\CharStreamIOException.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\antlr-2.7.7\antlr\CircularQueue.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\antlr-2.7.7\antlr\CommonAST.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\antlr-2.7.7\antlr\CommonASTWithHiddenTokens.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\antlr-2.7.7\antlr\CommonHiddenStreamToken.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\antlr-2.7.7\antlr\CommonToken.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\antlr-2.7.7\antlr\IOException.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\antlr-2.7.7\antlr\InputBuffer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\antlr-2.7.7\antlr\LLkParser.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\antlr-2.7.7\antlr\LexerSharedInputState.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\antlr-2.7.7\antlr\MismatchedCharException.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\antlr-2.7.7\antlr\MismatchedTokenException.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\antlr-2.7.7\antlr\NoViableAltException.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\antlr-2.7.7\antlr\NoViableAltForCharException.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\antlr-2.7.7\antlr\Parser.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\antlr-2.7.7\antlr\ParserSharedInputState.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\antlr-2.7.7\antlr\RecognitionException.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\antlr-2.7.7\antlr\RefCount.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\antlr-2.7.7\antlr\SemanticException.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\antlr-2.7.7\antlr\String.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\antlr-2.7.7\antlr\Token.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\antlr-2.7.7\antlr\TokenBuffer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\antlr-2.7.7\antlr\TokenRefCount.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\antlr-2.7.7\antlr\TokenStream.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\antlr-2.7.7\antlr\TokenStreamBasicFilter.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\antlr-2.7.7\antlr\TokenStreamException.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\antlr-2.7.7\antlr\TokenStreamHiddenTokenFilter.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\antlr-2.7.7\antlr\TokenStreamIOException.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\antlr-2.7.7\antlr\TokenStreamRecognitionException.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\antlr-2.7.7\antlr\TokenStreamRetryException.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\antlr-2.7.7\antlr\TokenStreamRewriteEngine.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\antlr-2.7.7\antlr\TokenStreamSelector.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\antlr-2.7.7\antlr\TokenWithIndex.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\antlr-2.7.7\antlr\TreeParser.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\antlr-2.7.7\antlr\TreeParserSharedInputState.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\antlr-2.7.7\antlr\config.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\git_repos\sqlitebrowser\libs\antlr-2.7.7\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A7B31E73-670D-3E72-B8E6-CF9CF83862C8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{61A1E72B-C91D-30D7-9002-4A77CFC7EF58}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

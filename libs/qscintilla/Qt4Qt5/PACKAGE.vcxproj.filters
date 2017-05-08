@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\git_repos\sqlitebrowser\CMakeFiles\d433292ffcaa16bb03bf6b3e49a130c0\PACKAGE_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{4F4B2251-8EAC-3B76-BF07-9DFAD06A2440}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

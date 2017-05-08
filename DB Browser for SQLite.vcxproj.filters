@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\git_repos\sqlitebrowser\src\AboutDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git_repos\sqlitebrowser\src\EditIndexDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git_repos\sqlitebrowser\src\EditDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git_repos\sqlitebrowser\src\EditTableDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git_repos\sqlitebrowser\src\ExportDataDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git_repos\sqlitebrowser\src\ExtendedTableWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git_repos\sqlitebrowser\src\FilterTableHeader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git_repos\sqlitebrowser\src\ImportCsvDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git_repos\sqlitebrowser\src\MainWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git_repos\sqlitebrowser\src\Settings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git_repos\sqlitebrowser\src\PreferencesDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git_repos\sqlitebrowser\src\SqlExecutionArea.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git_repos\sqlitebrowser\src\VacuumDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git_repos\sqlitebrowser\src\sqlitedb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git_repos\sqlitebrowser\src\sqlitetablemodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git_repos\sqlitebrowser\src\sqlitetypes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git_repos\sqlitebrowser\src\sqltextedit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git_repos\sqlitebrowser\src\csvparser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git_repos\sqlitebrowser\src\DbStructureModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git_repos\sqlitebrowser\src\grammar\Sqlite3Lexer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git_repos\sqlitebrowser\src\grammar\Sqlite3Parser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git_repos\sqlitebrowser\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git_repos\sqlitebrowser\src\Application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git_repos\sqlitebrowser\src\CipherDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git_repos\sqlitebrowser\src\ExportSqlDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git_repos\sqlitebrowser\src\SqlUiLexer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git_repos\sqlitebrowser\src\FileDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git_repos\sqlitebrowser\src\ColumnDisplayFormatDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git_repos\sqlitebrowser\src\FilterLineEdit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git_repos\sqlitebrowser\src\RemoteDatabase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git_repos\sqlitebrowser\src\ForeignKeyEditorDelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git_repos\sqlitebrowser\src\PlotDock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git_repos\sqlitebrowser\src\RemoteDock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git_repos\sqlitebrowser\src\RemoteModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git_repos\sqlitebrowser\qrc_icons.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git_repos\sqlitebrowser\qrc_flags.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git_repos\sqlitebrowser\qrc_translations.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git_repos\sqlitebrowser\qrc_CaCerts.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git_repos\sqlitebrowser\DB Browser for SQLite_autogen\moc_compilation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\git_repos\sqlitebrowser\src\version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git_repos\sqlitebrowser\src\sqlitetypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git_repos\sqlitebrowser\src\csvparser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git_repos\sqlitebrowser\src\sqlite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git_repos\sqlitebrowser\src\grammar\sqlite3TokenTypes.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git_repos\sqlitebrowser\src\grammar\Sqlite3Lexer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git_repos\sqlitebrowser\src\grammar\Sqlite3Parser.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git_repos\sqlitebrowser\ui_AboutDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git_repos\sqlitebrowser\ui_EditIndexDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git_repos\sqlitebrowser\ui_EditDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git_repos\sqlitebrowser\ui_EditTableDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git_repos\sqlitebrowser\ui_ExportDataDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git_repos\sqlitebrowser\ui_ImportCsvDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git_repos\sqlitebrowser\ui_MainWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git_repos\sqlitebrowser\ui_PreferencesDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git_repos\sqlitebrowser\ui_SqlExecutionArea.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git_repos\sqlitebrowser\ui_VacuumDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git_repos\sqlitebrowser\ui_CipherDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git_repos\sqlitebrowser\ui_ExportSqlDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git_repos\sqlitebrowser\ui_ColumnDisplayFormatDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git_repos\sqlitebrowser\ui_PlotDock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git_repos\sqlitebrowser\ui_RemoteDock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\git_repos\sqlitebrowser\CMakeLists.txt" />
+    <CustomBuild Include="C:\git_repos\sqlitebrowser\src\AboutDialog.ui" />
+    <CustomBuild Include="C:\git_repos\sqlitebrowser\src\EditIndexDialog.ui" />
+    <CustomBuild Include="C:\git_repos\sqlitebrowser\src\EditDialog.ui" />
+    <CustomBuild Include="C:\git_repos\sqlitebrowser\src\EditTableDialog.ui" />
+    <CustomBuild Include="C:\git_repos\sqlitebrowser\src\ExportDataDialog.ui" />
+    <CustomBuild Include="C:\git_repos\sqlitebrowser\src\ImportCsvDialog.ui" />
+    <CustomBuild Include="C:\git_repos\sqlitebrowser\src\MainWindow.ui" />
+    <CustomBuild Include="C:\git_repos\sqlitebrowser\src\PreferencesDialog.ui" />
+    <CustomBuild Include="C:\git_repos\sqlitebrowser\src\SqlExecutionArea.ui" />
+    <CustomBuild Include="C:\git_repos\sqlitebrowser\src\VacuumDialog.ui" />
+    <CustomBuild Include="C:\git_repos\sqlitebrowser\src\CipherDialog.ui" />
+    <CustomBuild Include="C:\git_repos\sqlitebrowser\src\ExportSqlDialog.ui" />
+    <CustomBuild Include="C:\git_repos\sqlitebrowser\src\ColumnDisplayFormatDialog.ui" />
+    <CustomBuild Include="C:\git_repos\sqlitebrowser\src\PlotDock.ui" />
+    <CustomBuild Include="C:\git_repos\sqlitebrowser\src\RemoteDock.ui" />
+    <CustomBuild Include="C:\git_repos\sqlitebrowser\src\icons\icons.qrc" />
+    <CustomBuild Include="C:\git_repos\sqlitebrowser\src\translations\flags\flags.qrc" />
+    <CustomBuild Include="C:\git_repos\sqlitebrowser\CMakeFiles\2f9d6282acb43fae4bcae0e93d28cc0f\sqlb_ar_SA.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git_repos\sqlitebrowser\CMakeFiles\2f9d6282acb43fae4bcae0e93d28cc0f\sqlb_ru.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git_repos\sqlitebrowser\CMakeFiles\2f9d6282acb43fae4bcae0e93d28cc0f\sqlb_de.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git_repos\sqlitebrowser\CMakeFiles\2f9d6282acb43fae4bcae0e93d28cc0f\sqlb_fr.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git_repos\sqlitebrowser\CMakeFiles\2f9d6282acb43fae4bcae0e93d28cc0f\sqlb_zh.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git_repos\sqlitebrowser\CMakeFiles\2f9d6282acb43fae4bcae0e93d28cc0f\sqlb_zh_TW.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git_repos\sqlitebrowser\CMakeFiles\2f9d6282acb43fae4bcae0e93d28cc0f\sqlb_pt_BR.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git_repos\sqlitebrowser\CMakeFiles\2f9d6282acb43fae4bcae0e93d28cc0f\sqlb_en_GB.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git_repos\sqlitebrowser\CMakeFiles\2f9d6282acb43fae4bcae0e93d28cc0f\sqlb_es_ES.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git_repos\sqlitebrowser\CMakeFiles\2f9d6282acb43fae4bcae0e93d28cc0f\sqlb_ko_KR.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git_repos\sqlitebrowser\CMakeFiles\2f9d6282acb43fae4bcae0e93d28cc0f\sqlb_tr.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git_repos\sqlitebrowser\CMakeFiles\2f9d6282acb43fae4bcae0e93d28cc0f\sqlb_uk_UA.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git_repos\sqlitebrowser\src\translations\translations.qrc" />
+    <CustomBuild Include="C:\git_repos\sqlitebrowser\src\certs\CaCerts.qrc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\git_repos\sqlitebrowser\src\grammar\sqlite3.g" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\git_repos\sqlitebrowser\src\winapp.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A7B31E73-670D-3E72-B8E6-CF9CF83862C8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{61A1E72B-C91D-30D7-9002-4A77CFC7EF58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{4F4B2251-8EAC-3B76-BF07-9DFAD06A2440}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -927,6 +927,7 @@ void MainWindow::executeQuery()
     const char *tail = utf8Query.data();
     int sql3status = SQLITE_OK;
     int tail_length = utf8Query.length();
+	int loops = 0;
     QString statusMessage;
     bool modified = false;
     bool wasdirty = db.getDirty();
@@ -946,6 +947,7 @@ void MainWindow::executeQuery()
     timer.start();
     while( tail && *tail != 0 && (sql3status == SQLITE_OK || sql3status == SQLITE_DONE))
     {
+		loops++;
         // Check whether the DB structure is changed by this statement
         QString qtail = QString(tail);
         if(!structure_updated && (qtail.startsWith("ALTER", Qt::CaseInsensitive) ||
@@ -959,6 +961,8 @@ void MainWindow::executeQuery()
         const char* qbegin = tail;
         sql3status = sqlite3_prepare_v2(db._db,tail, tail_length, &vm, &tail);
         QString queryPart = QString::fromUtf8(qbegin, tail - qbegin);
+		QString queryPartTrimmed = queryPart;
+		sqlWidget->getModel()->removeCommentsFromQuery(queryPartTrimmed);
         tail_length -= (tail - qbegin);
         int execution_end_index = execution_start_index + tail_length_before - tail_length;
 
@@ -970,8 +974,8 @@ void MainWindow::executeQuery()
             // SQLite returns SQLITE_DONE when a valid SELECT statement was executed but returned no results. To run into the branch that updates
             // the status message and the table view anyway manipulate the status value here. This is also done for PRAGMA statements as they (sometimes)
             // return rows just like SELECT statements, too.
-            if((queryPart.trimmed().startsWith("SELECT", Qt::CaseInsensitive) ||
-               queryPart.trimmed().startsWith("PRAGMA", Qt::CaseInsensitive)) && sql3status == SQLITE_DONE)
+            if((queryPartTrimmed.startsWith("SELECT", Qt::CaseInsensitive) ||
+               queryPartTrimmed.startsWith("PRAGMA", Qt::CaseInsensitive)) && sql3status == SQLITE_DONE)
                 sql3status = SQLITE_ROW;
 
             switch(sql3status)
@@ -982,8 +986,8 @@ void MainWindow::executeQuery()
                 if(sqlWidget->getModel()->valid())
                 {
                     // The query takes the last placeholder as it may itself contain the sequence '%' + number
-                    statusMessage = tr("%1 rows returned in %2ms from: %3").arg(
-                                sqlWidget->getModel()->totalRowCount()).arg(timer.elapsed()).arg(queryPart.trimmed());
+                    statusMessage = tr("%1 rows returned in %2ms and %4 loops from: %3").arg(
+                                sqlWidget->getModel()->totalRowCount()).arg(timer.elapsed()).arg(queryPart.trimmed()).arg(loops);
                     sqlWidget->enableSaveButton(true);
                     sql3status = SQLITE_OK;
                 }
@@ -996,14 +1000,14 @@ void MainWindow::executeQuery()
             case SQLITE_DONE:
             case SQLITE_OK:
             {
-                if( !queryPart.trimmed().startsWith("SELECT", Qt::CaseInsensitive) )
+                if( !queryPartTrimmed.startsWith("SELECT", Qt::CaseInsensitive) )
                 {
                     modified = true;
 
                     QString stmtHasChangedDatabase;
-                    if(queryPart.trimmed().startsWith("INSERT", Qt::CaseInsensitive) ||
-                            queryPart.trimmed().startsWith("UPDATE", Qt::CaseInsensitive) ||
-                            queryPart.trimmed().startsWith("DELETE", Qt::CaseInsensitive))
+                    if(queryPartTrimmed.startsWith("INSERT", Qt::CaseInsensitive) ||
+                            queryPartTrimmed.startsWith("UPDATE", Qt::CaseInsensitive) ||
+                            queryPartTrimmed.startsWith("DELETE", Qt::CaseInsensitive))
                     {
                         stmtHasChangedDatabase = tr(", %1 rows affected").arg(sqlite3_changes(db._db));
                     }

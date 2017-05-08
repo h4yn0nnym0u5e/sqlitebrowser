@@ -1,0 +1,12 @@
+C:/git_repos/sqlitebrowser/_CPack_Packages/win64/NSIS/DB Browser for SQLite-3.9.99-win64///DB Browser for SQLite.exe
+C:/git_repos/sqlitebrowser/_CPack_Packages/win64/NSIS/DB Browser for SQLite-3.9.99-win64///Qt5Cored.dll
+C:/git_repos/sqlitebrowser/_CPack_Packages/win64/NSIS/DB Browser for SQLite-3.9.99-win64///Qt5Guid.dll
+C:/git_repos/sqlitebrowser/_CPack_Packages/win64/NSIS/DB Browser for SQLite-3.9.99-win64///Qt5Networkd.dll
+C:/git_repos/sqlitebrowser/_CPack_Packages/win64/NSIS/DB Browser for SQLite-3.9.99-win64///Qt5PrintSupportd.dll
+C:/git_repos/sqlitebrowser/_CPack_Packages/win64/NSIS/DB Browser for SQLite-3.9.99-win64///Qt5Widgetsd.dll
+C:/git_repos/sqlitebrowser/_CPack_Packages/win64/NSIS/DB Browser for SQLite-3.9.99-win64///sqlite3.dll
+C:/git_repos/sqlitebrowser/_CPack_Packages/win64/NSIS/DB Browser for SQLite-3.9.99-win64///libeay32.dll
+C:/git_repos/sqlitebrowser/_CPack_Packages/win64/NSIS/DB Browser for SQLite-3.9.99-win64///ssleay32.dll
+C:/git_repos/sqlitebrowser/_CPack_Packages/win64/NSIS/DB Browser for SQLite-3.9.99-win64/platforms/qwindows.dll
+C:/git_repos/sqlitebrowser/_CPack_Packages/win64/NSIS/DB Browser for SQLite-3.9.99-win64/redist/vcredist_x64.exe
+C:/git_repos/sqlitebrowser/_CPack_Packages/win64/NSIS/DB Browser for SQLite-3.9.99-win64///winlaunch.bat

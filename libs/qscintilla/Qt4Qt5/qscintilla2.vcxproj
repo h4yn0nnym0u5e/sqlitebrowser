@@ -1,0 +1,472 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{461A49BF-D1E3-3E90-AB8D-EFB47CA547D6}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>qscintilla2</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">qscintilla2.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">qscintilla2</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">qscintilla2.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">qscintilla2</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">qscintilla2.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">qscintilla2</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">qscintilla2.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">qscintilla2</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions)  -std=c++11</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5;C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\qscintilla2_autogen\include;C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\.;C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\..\include;C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\..\lexlib;C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\..\src;C:\dev\Qt\5.8\msvc2013_64\include;C:\dev\Qt\5.8\msvc2013_64\include\QtWidgets;C:\dev\Qt\5.8\msvc2013_64\include\QtGui;C:\dev\Qt\5.8\msvc2013_64\include\QtCore;C:\dev\Qt\5.8\msvc2013_64\.\mkspecs\win32-msvc2013;C:\dev\Qt\5.8\msvc2013_64\include\QtANGLE;C:\dev\Qt\5.8\msvc2013_64\include\QtPrintSupport;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_PRINTSUPPORT_LIB;SCINTILLA_QT;SCI_LEXER;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_PRINTSUPPORT_LIB;SCINTILLA_QT;SCI_LEXER;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5;C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\qscintilla2_autogen\include;C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\.;C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\..\include;C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\..\lexlib;C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\..\src;C:\dev\Qt\5.8\msvc2013_64\include;C:\dev\Qt\5.8\msvc2013_64\include\QtWidgets;C:\dev\Qt\5.8\msvc2013_64\include\QtGui;C:\dev\Qt\5.8\msvc2013_64\include\QtCore;C:\dev\Qt\5.8\msvc2013_64\.\mkspecs\win32-msvc2013;C:\dev\Qt\5.8\msvc2013_64\include\QtANGLE;C:\dev\Qt\5.8\msvc2013_64\include\QtPrintSupport;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5;C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\qscintilla2_autogen\include;C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\.;C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\..\include;C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\..\lexlib;C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\..\src;C:\dev\Qt\5.8\msvc2013_64\include;C:\dev\Qt\5.8\msvc2013_64\include\QtWidgets;C:\dev\Qt\5.8\msvc2013_64\include\QtGui;C:\dev\Qt\5.8\msvc2013_64\include\QtCore;C:\dev\Qt\5.8\msvc2013_64\.\mkspecs\win32-msvc2013;C:\dev\Qt\5.8\msvc2013_64\include\QtANGLE;C:\dev\Qt\5.8\msvc2013_64\include\QtPrintSupport;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic MOC for target qscintilla2</Message>
+      <Command>setlocal
+cd C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_autogen C:/git_repos/sqlitebrowser/libs/qscintilla/Qt4Qt5/CMakeFiles/qscintilla2_autogen.dir/ Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions)  -std=c++11</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5;C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\qscintilla2_autogen\include;C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\.;C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\..\include;C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\..\lexlib;C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\..\src;C:\dev\Qt\5.8\msvc2013_64\include;C:\dev\Qt\5.8\msvc2013_64\include\QtWidgets;C:\dev\Qt\5.8\msvc2013_64\include\QtGui;C:\dev\Qt\5.8\msvc2013_64\include\QtCore;C:\dev\Qt\5.8\msvc2013_64\.\mkspecs\win32-msvc2013;C:\dev\Qt\5.8\msvc2013_64\include\QtANGLE;C:\dev\Qt\5.8\msvc2013_64\include\QtPrintSupport;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_PRINTSUPPORT_LIB;SCINTILLA_QT;SCI_LEXER;QT_NO_DEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_PRINTSUPPORT_LIB;SCINTILLA_QT;SCI_LEXER;QT_NO_DEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5;C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\qscintilla2_autogen\include;C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\.;C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\..\include;C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\..\lexlib;C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\..\src;C:\dev\Qt\5.8\msvc2013_64\include;C:\dev\Qt\5.8\msvc2013_64\include\QtWidgets;C:\dev\Qt\5.8\msvc2013_64\include\QtGui;C:\dev\Qt\5.8\msvc2013_64\include\QtCore;C:\dev\Qt\5.8\msvc2013_64\.\mkspecs\win32-msvc2013;C:\dev\Qt\5.8\msvc2013_64\include\QtANGLE;C:\dev\Qt\5.8\msvc2013_64\include\QtPrintSupport;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5;C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\qscintilla2_autogen\include;C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\.;C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\..\include;C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\..\lexlib;C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\..\src;C:\dev\Qt\5.8\msvc2013_64\include;C:\dev\Qt\5.8\msvc2013_64\include\QtWidgets;C:\dev\Qt\5.8\msvc2013_64\include\QtGui;C:\dev\Qt\5.8\msvc2013_64\include\QtCore;C:\dev\Qt\5.8\msvc2013_64\.\mkspecs\win32-msvc2013;C:\dev\Qt\5.8\msvc2013_64\include\QtANGLE;C:\dev\Qt\5.8\msvc2013_64\include\QtPrintSupport;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic MOC for target qscintilla2</Message>
+      <Command>setlocal
+cd C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_autogen C:/git_repos/sqlitebrowser/libs/qscintilla/Qt4Qt5/CMakeFiles/qscintilla2_autogen.dir/ Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions)  -std=c++11</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5;C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\qscintilla2_autogen\include;C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\.;C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\..\include;C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\..\lexlib;C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\..\src;C:\dev\Qt\5.8\msvc2013_64\include;C:\dev\Qt\5.8\msvc2013_64\include\QtWidgets;C:\dev\Qt\5.8\msvc2013_64\include\QtGui;C:\dev\Qt\5.8\msvc2013_64\include\QtCore;C:\dev\Qt\5.8\msvc2013_64\.\mkspecs\win32-msvc2013;C:\dev\Qt\5.8\msvc2013_64\include\QtANGLE;C:\dev\Qt\5.8\msvc2013_64\include\QtPrintSupport;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_PRINTSUPPORT_LIB;SCINTILLA_QT;SCI_LEXER;QT_NO_DEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_PRINTSUPPORT_LIB;SCINTILLA_QT;SCI_LEXER;QT_NO_DEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5;C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\qscintilla2_autogen\include;C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\.;C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\..\include;C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\..\lexlib;C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\..\src;C:\dev\Qt\5.8\msvc2013_64\include;C:\dev\Qt\5.8\msvc2013_64\include\QtWidgets;C:\dev\Qt\5.8\msvc2013_64\include\QtGui;C:\dev\Qt\5.8\msvc2013_64\include\QtCore;C:\dev\Qt\5.8\msvc2013_64\.\mkspecs\win32-msvc2013;C:\dev\Qt\5.8\msvc2013_64\include\QtANGLE;C:\dev\Qt\5.8\msvc2013_64\include\QtPrintSupport;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5;C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\qscintilla2_autogen\include;C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\.;C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\..\include;C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\..\lexlib;C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\..\src;C:\dev\Qt\5.8\msvc2013_64\include;C:\dev\Qt\5.8\msvc2013_64\include\QtWidgets;C:\dev\Qt\5.8\msvc2013_64\include\QtGui;C:\dev\Qt\5.8\msvc2013_64\include\QtCore;C:\dev\Qt\5.8\msvc2013_64\.\mkspecs\win32-msvc2013;C:\dev\Qt\5.8\msvc2013_64\include\QtANGLE;C:\dev\Qt\5.8\msvc2013_64\include\QtPrintSupport;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic MOC for target qscintilla2</Message>
+      <Command>setlocal
+cd C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_autogen C:/git_repos/sqlitebrowser/libs/qscintilla/Qt4Qt5/CMakeFiles/qscintilla2_autogen.dir/ MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions)  -std=c++11</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5;C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\qscintilla2_autogen\include;C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\.;C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\..\include;C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\..\lexlib;C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\..\src;C:\dev\Qt\5.8\msvc2013_64\include;C:\dev\Qt\5.8\msvc2013_64\include\QtWidgets;C:\dev\Qt\5.8\msvc2013_64\include\QtGui;C:\dev\Qt\5.8\msvc2013_64\include\QtCore;C:\dev\Qt\5.8\msvc2013_64\.\mkspecs\win32-msvc2013;C:\dev\Qt\5.8\msvc2013_64\include\QtANGLE;C:\dev\Qt\5.8\msvc2013_64\include\QtPrintSupport;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_PRINTSUPPORT_LIB;SCINTILLA_QT;SCI_LEXER;QT_NO_DEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_PRINTSUPPORT_LIB;SCINTILLA_QT;SCI_LEXER;QT_NO_DEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5;C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\qscintilla2_autogen\include;C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\.;C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\..\include;C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\..\lexlib;C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\..\src;C:\dev\Qt\5.8\msvc2013_64\include;C:\dev\Qt\5.8\msvc2013_64\include\QtWidgets;C:\dev\Qt\5.8\msvc2013_64\include\QtGui;C:\dev\Qt\5.8\msvc2013_64\include\QtCore;C:\dev\Qt\5.8\msvc2013_64\.\mkspecs\win32-msvc2013;C:\dev\Qt\5.8\msvc2013_64\include\QtANGLE;C:\dev\Qt\5.8\msvc2013_64\include\QtPrintSupport;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5;C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\qscintilla2_autogen\include;C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\.;C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\..\include;C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\..\lexlib;C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\..\src;C:\dev\Qt\5.8\msvc2013_64\include;C:\dev\Qt\5.8\msvc2013_64\include\QtWidgets;C:\dev\Qt\5.8\msvc2013_64\include\QtGui;C:\dev\Qt\5.8\msvc2013_64\include\QtCore;C:\dev\Qt\5.8\msvc2013_64\.\mkspecs\win32-msvc2013;C:\dev\Qt\5.8\msvc2013_64\include\QtANGLE;C:\dev\Qt\5.8\msvc2013_64\include\QtPrintSupport;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic MOC for target qscintilla2</Message>
+      <Command>setlocal
+cd C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_autogen C:/git_repos/sqlitebrowser/libs/qscintilla/Qt4Qt5/CMakeFiles/qscintilla2_autogen.dir/ RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/git_repos/sqlitebrowser/libs/qscintilla/Qt4Qt5/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/git_repos/sqlitebrowser -BC:/git_repos/sqlitebrowser --check-stamp-file C:/git_repos/sqlitebrowser/libs/qscintilla/Qt4Qt5/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/git_repos/sqlitebrowser/libs/qscintilla/Qt4Qt5/CMakeLists.txt;C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\CMakeLists.txt;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeParseArguments.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeParseArguments.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5PrintSupport\Qt5PrintSupportConfigVersion.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5PrintSupport\Qt5PrintSupportConfig.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5PrintSupport\Qt5PrintSupport_QWindowsPrinterSupportPlugin.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\AutogenInfo.cmake.in;C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/git_repos/sqlitebrowser/libs/qscintilla/Qt4Qt5/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/git_repos/sqlitebrowser -BC:/git_repos/sqlitebrowser --check-stamp-file C:/git_repos/sqlitebrowser/libs/qscintilla/Qt4Qt5/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/git_repos/sqlitebrowser/libs/qscintilla/Qt4Qt5/CMakeLists.txt;C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\CMakeLists.txt;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeParseArguments.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeParseArguments.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5PrintSupport\Qt5PrintSupportConfigVersion.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5PrintSupport\Qt5PrintSupportConfig.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5PrintSupport\Qt5PrintSupport_QWindowsPrinterSupportPlugin.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\AutogenInfo.cmake.in;C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/git_repos/sqlitebrowser/libs/qscintilla/Qt4Qt5/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/git_repos/sqlitebrowser -BC:/git_repos/sqlitebrowser --check-stamp-file C:/git_repos/sqlitebrowser/libs/qscintilla/Qt4Qt5/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/git_repos/sqlitebrowser/libs/qscintilla/Qt4Qt5/CMakeLists.txt;C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\CMakeLists.txt;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeParseArguments.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeParseArguments.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5PrintSupport\Qt5PrintSupportConfigVersion.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5PrintSupport\Qt5PrintSupportConfig.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5PrintSupport\Qt5PrintSupport_QWindowsPrinterSupportPlugin.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\AutogenInfo.cmake.in;C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/git_repos/sqlitebrowser/libs/qscintilla/Qt4Qt5/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/git_repos/sqlitebrowser -BC:/git_repos/sqlitebrowser --check-stamp-file C:/git_repos/sqlitebrowser/libs/qscintilla/Qt4Qt5/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/git_repos/sqlitebrowser/libs/qscintilla/Qt4Qt5/CMakeLists.txt;C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\CMakeLists.txt;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeParseArguments.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeParseArguments.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5PrintSupport\Qt5PrintSupportConfigVersion.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5PrintSupport\Qt5PrintSupportConfig.cmake;C:\dev\Qt\5.8\msvc2013_64\lib\cmake\Qt5PrintSupport\Qt5PrintSupport_QWindowsPrinterSupportPlugin.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\AutogenInfo.cmake.in;C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\Qsci\qsciglobal.h" />
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\Qsci\qscicommand.h" />
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\Qsci\qscicommandset.h" />
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\Qsci\qscidocument.h" />
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\Qsci\qsciprinter.h" />
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\Qsci\qscistyle.h" />
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\Qsci\qscistyledtext.h" />
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\ListBoxQt.h" />
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\SciNamespace.h" />
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\qscintilla\include\ILexer.h" />
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\qscintilla\include\Platform.h" />
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\qscintilla\include\SciLexer.h" />
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\qscintilla\include\Scintilla.h" />
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\qscintilla\include\ScintillaWidget.h" />
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\qscintilla\include\Sci_Position.h" />
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\qscintilla\lexlib\Accessor.h" />
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\qscintilla\lexlib\CharacterCategory.h" />
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\qscintilla\lexlib\CharacterSet.h" />
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\qscintilla\lexlib\LexAccessor.h" />
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\qscintilla\lexlib\LexerBase.h" />
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\qscintilla\lexlib\LexerModule.h" />
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\qscintilla\lexlib\LexerNoExceptions.h" />
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\qscintilla\lexlib\LexerSimple.h" />
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\qscintilla\lexlib\OptionSet.h" />
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\qscintilla\lexlib\PropSetSimple.h" />
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\qscintilla\lexlib\StyleContext.h" />
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\qscintilla\lexlib\SubStyles.h" />
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\qscintilla\lexlib\WordList.h" />
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\qscintilla\src\AutoComplete.h" />
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\qscintilla\src\CallTip.h" />
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\qscintilla\src\CaseConvert.h" />
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\qscintilla\src\CaseFolder.h" />
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\qscintilla\src\Catalogue.h" />
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\qscintilla\src\CellBuffer.h" />
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\qscintilla\src\CharClassify.h" />
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\qscintilla\src\ContractionState.h" />
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\qscintilla\src\Decoration.h" />
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\qscintilla\src\Document.h" />
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\qscintilla\src\Editor.h" />
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\qscintilla\src\ExternalLexer.h" />
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\qscintilla\src\FontQuality.h" />
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\qscintilla\src\Indicator.h" />
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\qscintilla\src\KeyMap.h" />
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\qscintilla\src\LineMarker.h" />
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\qscintilla\src\Partitioning.h" />
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\qscintilla\src\PerLine.h" />
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\qscintilla\src\PositionCache.h" />
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\qscintilla\src\RESearch.h" />
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\qscintilla\src\RunStyles.h" />
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\qscintilla\src\ScintillaBase.h" />
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\qscintilla\src\Selection.h" />
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\qscintilla\src\SplitVector.h" />
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\qscintilla\src\Style.h" />
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\qscintilla\src\UnicodeFromUTF8.h" />
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\qscintilla\src\UniConversion.h" />
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\qscintilla\src\ViewStyle.h" />
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\qscintilla\src\XPM.h" />
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\qscintilla\src\Position.h" />
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\qscintilla\src\SparseVector.h" />
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\Qsci\qsciscintilla.h" />
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\Qsci\qsciscintillabase.h" />
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\Qsci\qsciabstractapis.h" />
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\Qsci\qsciapis.h" />
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\Qsci\qscilexer.h" />
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\Qsci\qscilexercustom.h" />
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\Qsci\qscilexersql.h" />
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\Qsci\qscimacro.h" />
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\SciClasses.h" />
+    <ClInclude Include="C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\ScintillaQt.h" />
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\qsciscintilla.cpp"  />
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\qsciscintillabase.cpp"  />
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\qsciabstractapis.cpp"  />
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\qsciapis.cpp"  />
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\qscicommand.cpp"  />
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\qscicommandset.cpp"  />
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\qscidocument.cpp"  />
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\qscilexer.cpp"  />
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\qscilexercustom.cpp"  />
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\qscilexersql.cpp"  />
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\qscimacro.cpp"  />
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\qsciprinter.cpp"  />
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\qscistyle.cpp"  />
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\qscistyledtext.cpp"  />
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\MacPasteboardMime.cpp"  />
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\InputMethod.cpp"  />
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\SciClasses.cpp"  />
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\ListBoxQt.cpp"  />
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\PlatQt.cpp"  />
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\ScintillaQt.cpp"  />
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\qscintilla\lexers\LexSQL.cpp"  />
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\qscintilla\lexlib\Accessor.cpp"  />
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\qscintilla\lexlib\CharacterCategory.cpp"  />
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\qscintilla\lexlib\CharacterSet.cpp"  />
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\qscintilla\lexlib\LexerBase.cpp"  />
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\qscintilla\lexlib\LexerModule.cpp"  />
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\qscintilla\lexlib\LexerNoExceptions.cpp"  />
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\qscintilla\lexlib\LexerSimple.cpp"  />
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\qscintilla\lexlib\PropSetSimple.cpp"  />
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\qscintilla\lexlib\StyleContext.cpp"  />
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\qscintilla\lexlib\WordList.cpp"  />
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\qscintilla\src\AutoComplete.cpp"  />
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\qscintilla\src\CallTip.cpp"  />
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\qscintilla\src\CaseConvert.cpp"  />
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\qscintilla\src\CaseFolder.cpp"  />
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\qscintilla\src\Catalogue.cpp"  />
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\qscintilla\src\CellBuffer.cpp"  />
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\qscintilla\src\CharClassify.cpp"  />
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\qscintilla\src\ContractionState.cpp"  />
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\qscintilla\src\Decoration.cpp"  />
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\qscintilla\src\Document.cpp"  />
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\qscintilla\src\Editor.cpp"  />
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\qscintilla\src\EditModel.cpp"  />
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\qscintilla\src\EditView.cpp"  />
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\qscintilla\src\ExternalLexer.cpp"  />
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\qscintilla\src\Indicator.cpp"  />
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\qscintilla\src\KeyMap.cpp"  />
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\qscintilla\src\LineMarker.cpp"  />
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\qscintilla\src\MarginView.cpp"  />
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\qscintilla\src\PerLine.cpp"  />
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\qscintilla\src\PositionCache.cpp"  />
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\qscintilla\src\RESearch.cpp"  />
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\qscintilla\src\RunStyles.cpp"  />
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\qscintilla\src\ScintillaBase.cpp"  />
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\qscintilla\src\Selection.cpp"  />
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\qscintilla\src\Style.cpp"  />
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\qscintilla\src\UniConversion.cpp"  />
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\qscintilla\src\ViewStyle.cpp"  />
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\qscintilla\src\XPM.cpp"  />
+    <ClCompile Include="C:\git_repos\sqlitebrowser\libs\qscintilla\Qt4Qt5\qscintilla2_autogen\moc_compilation.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\git_repos\sqlitebrowser\ZERO_CHECK.vcxproj">
+      <Project>{C5F26C4B-E4E4-33B4-B438-5E14F698B3AF}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
