@@ -1,31 +1,5 @@
-﻿Build started 08/05/2017 18:41:23.
-     1>Project "C:\git_repos\sqlitebrowser\INSTALL.vcxproj" on node 2 (Build target(s)).
-     1>PostBuildEvent:
-         setlocal
-         "C:\Program Files (x86)\CMake\bin\cmake.exe" -DBUILD_TYPE=Debug -P cmake_install.cmake
-         if %errorlevel% neq 0 goto :cmEnd
-         :cmEnd
-         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
-         :cmErrorLevel
-         exit /b %1
-         :cmDone
-         if %errorlevel% neq 0 goto :VCEnd
-         :VCEnd
-         -- Install configuration: "Debug"
-         -- Installing: C:/Program Files/sqlitebrowser///DB Browser for SQLite.exe
-         -- Up-to-date: C:/Program Files/sqlitebrowser///Qt5Cored.dll
-         -- Up-to-date: C:/Program Files/sqlitebrowser///Qt5Guid.dll
-         -- Up-to-date: C:/Program Files/sqlitebrowser///Qt5Networkd.dll
-         -- Up-to-date: C:/Program Files/sqlitebrowser///Qt5PrintSupportd.dll
-         -- Up-to-date: C:/Program Files/sqlitebrowser///Qt5Widgetsd.dll
-         -- Up-to-date: C:/Program Files/sqlitebrowser///sqlite3.dll
-         -- Up-to-date: C:/Program Files/sqlitebrowser///libeay32.dll
-         -- Up-to-date: C:/Program Files/sqlitebrowser///ssleay32.dll
-         -- Up-to-date: C:/Program Files/sqlitebrowser/platforms/qwindows.dll
-         -- Up-to-date: C:/Program Files/sqlitebrowser/redist/vcredist_x64.exe
-         -- Up-to-date: C:/Program Files/sqlitebrowser///winlaunch.bat
-     1>Done Building Project "C:\git_repos\sqlitebrowser\INSTALL.vcxproj" (Build target(s)).
+﻿Build started 08/05/2017 22:25:51.
 
 Build succeeded.
 
-Time Elapsed 00:00:00.20
+Time Elapsed 00:00:00.01
