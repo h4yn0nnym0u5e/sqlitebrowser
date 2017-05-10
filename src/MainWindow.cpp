@@ -959,6 +959,8 @@ void MainWindow::executeQuery()
         const char* qbegin = tail;
         sql3status = sqlite3_prepare_v2(db._db,tail, tail_length, &vm, &tail);
         QString queryPart = QString::fromUtf8(qbegin, tail - qbegin);
+		QString queryPartTrimmed = queryPart;
+		sqlWidget->getModel()->removeCommentsFromQuery(queryPartTrimmed);
         tail_length -= (tail - qbegin);
         int execution_end_index = execution_start_index + tail_length_before - tail_length;
 
@@ -970,8 +972,8 @@ void MainWindow::executeQuery()
             // SQLite returns SQLITE_DONE when a valid SELECT statement was executed but returned no results. To run into the branch that updates
             // the status message and the table view anyway manipulate the status value here. This is also done for PRAGMA statements as they (sometimes)
             // return rows just like SELECT statements, too.
-            if((queryPart.trimmed().startsWith("SELECT", Qt::CaseInsensitive) ||
-               queryPart.trimmed().startsWith("PRAGMA", Qt::CaseInsensitive)) && sql3status == SQLITE_DONE)
+            if((queryPartTrimmed.startsWith("SELECT", Qt::CaseInsensitive) ||
+               queryPartTrimmed.startsWith("PRAGMA", Qt::CaseInsensitive)) && sql3status == SQLITE_DONE)
                 sql3status = SQLITE_ROW;
 
             switch(sql3status)
@@ -996,14 +998,14 @@ void MainWindow::executeQuery()
             case SQLITE_DONE:
             case SQLITE_OK:
             {
-                if( !queryPart.trimmed().startsWith("SELECT", Qt::CaseInsensitive) )
+                if( !queryPartTrimmed.startsWith("SELECT", Qt::CaseInsensitive) )
                 {
                     modified = true;
 
                     QString stmtHasChangedDatabase;
-                    if(queryPart.trimmed().startsWith("INSERT", Qt::CaseInsensitive) ||
-                            queryPart.trimmed().startsWith("UPDATE", Qt::CaseInsensitive) ||
-                            queryPart.trimmed().startsWith("DELETE", Qt::CaseInsensitive))
+                    if(queryPartTrimmed.startsWith("INSERT", Qt::CaseInsensitive) ||
+                            queryPartTrimmed.startsWith("UPDATE", Qt::CaseInsensitive) ||
+                            queryPartTrimmed.startsWith("DELETE", Qt::CaseInsensitive))
                     {
                         stmtHasChangedDatabase = tr(", %1 rows affected").arg(sqlite3_changes(db._db));
                     }
