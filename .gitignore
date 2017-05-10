@@ -38,3 +38,8 @@ libs/*/*/*.a
 
 # Ignore .DS_Store files on OSX
 .DS_Store
+
+# VS 2013 folders
+x64/**
+**/*.dir/**
+DB\ Browser\ for\ SQLite.*
