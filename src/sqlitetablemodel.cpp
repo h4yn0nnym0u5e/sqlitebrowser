@@ -114,10 +114,8 @@ void SqliteTableModel::setQuery(const QString& sQuery, bool dontClearHeaders)
         return;
 
     m_sQuery = sQuery.trimmed();
-	qWarning() << "Trimmed query is: " << m_sQuery;
-    removeCommentsFromQuery(m_sQuery);
-	qWarning() << "Query without comments is: " << m_sQuery;
-
+	removeCommentsFromQuery(m_sQuery);
+	
     // do a count query to get the full row count in a fast manner
     m_rowCount = getQueryRowCount();
     if(m_rowCount == -1)
@@ -593,19 +591,19 @@ void SqliteTableModel::buildQuery()
 void SqliteTableModel::removeCommentsFromQuery(QString& query) 
 {
 	// first remove block comments
-	{
+	{	//              (----- code, may be empty -------)(------block comment-------)(---the rest!)
 		QRegExp rxSQL("^((?:(?:[^'/]|/(?![*]))*|'[^']*')*)(/[*](?:[^*]|[*](?!/))*[*]/)(.*)$");	// set up regex to find block comment
 		QString result = "";
 
 		while (query.size() != 0)
 		{
 			int pos = rxSQL.indexIn(query);
-			if (pos > -1)
+			if (pos > -1)	// regex matched, we had a block comment
 			{
-				result += rxSQL.cap(1) + " ";
-				query = rxSQL.cap(3);
+				result += rxSQL.cap(1) + " ";	// append code + whitespace (to replace comment) to result
+				query = rxSQL.cap(3);			// the rest of the input could have more code, so loop
 			}
-			else
+			else // no comment (left) in query, append as-is and exit
 			{
 				result += query;
 				query = "";
@@ -615,26 +613,26 @@ void SqliteTableModel::removeCommentsFromQuery(QString& query)
 	}
 
 	// deal with end-of-line comments
-	{
+	{	//				(--------code, may be empty--------)(--comment---)(-newline-)(--the rest!)
 		QRegExp rxSQL("^((?:(?:[^'-]|-(?!-))*|(?:'[^']*'))*)(--[^\\r\\n]*)([\\r\\n]*)(.*)$");	// set up regex to find end-of-line comment
 		QString result = "";
 
 		while (query.size() != 0)
 		{
 			int pos = rxSQL.indexIn(query);
-			if (pos > -1)
+			if (pos > -1)	// found line comment
 			{
-				result += rxSQL.cap(1) + rxSQL.cap(3);
-				query = rxSQL.cap(4);
+				result += rxSQL.cap(1) + rxSQL.cap(3);	// append code + newline to result
+				query = rxSQL.cap(4);					// the rest of the input could have more code, so loop
 			}
-			else
+			else // no comment (left) in query, append as-is and exit
 			{
 				result += query;
 				query = "";
 			}
 		}
 
-		query = result.trimmed();
+		query = result.trimmed();	// remove whitespace at start and end (might have been a block comment)
 	}
 }
 
